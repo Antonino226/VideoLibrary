@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tutorial Playlist Video Responsiva</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+   <div class="main-video-container">
+      <video id="main-video" controls class="main-video"></video>
+      <h3 id="main-vid-title" class="main-vid-title">Nessun video disponibile</h3>
+   </div>
+   <div id="video-list-container" class="video-list-container">
+      <!-- QUI GENERATI I VIDEO -->
+   </div>
+
+   <a id="fileSelect">
+      <div id="drop-area" class="drop-area">
+         <h3>Trascina i tuoi video qui</h3>
+         <input type="file" id="fileElem" multiple accept="video/*" style="display:none">
+      </div>
+   </a>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
